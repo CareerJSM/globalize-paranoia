@@ -1,5 +1,5 @@
 # encoding: utf-8
-require File.expand_path('../lib/globalize/versioning/version.rb', __FILE__)
+require File.expand_path('../lib/globalize/paranoia/version.rb', __FILE__)
 
 Gem::Specification.new do |s|
   s.name         = 'globalize-paranoia'
