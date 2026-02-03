@@ -15,14 +15,14 @@ Gem::Specification.new do |s|
   s.platform     = Gem::Platform::RUBY
   s.require_path = 'lib'
 
-  s.add_dependency 'activerecord', '>= 8.0.0'
   s.add_dependency 'activemodel', '>= 8.0.0'
+  s.add_dependency 'activerecord', '>= 8.0.0'
   s.add_dependency 'globalize', '>= 7.0.0'
   s.add_dependency 'paranoia'
 
   s.add_development_dependency 'database_cleaner', '>= 1.2.0'
   s.add_development_dependency 'minitest'
-  s.add_development_dependency 'sqlite3'
-  s.add_development_dependency 'rdoc'
   s.add_development_dependency 'rake'
+  s.add_development_dependency 'rdoc'
+  s.add_development_dependency 'sqlite3'
 end
